@@ -31,6 +31,12 @@ The first command reruns the archived primary calculation, checks numerical agre
 
 ## Files
 
+### Journal-format figure exports
+
+Run `python 05_reproducibility/export_pain_medicine_figures.py` to create separate exports under `journal_formats/pain_medicine/`. This reuses the existing figure definitions and validated calculations without refitting models or modifying analysis inputs. It exports four main figures and the supplementary coverage figure as vector PDF/SVG and 600-dpi PNG/TIFF; descriptive panel titles are removed while panel identifiers remain. Use the supplementary figure with its legend in the supplementary document.
+
+Pain Medicine does not accept a graphical abstract with the main manuscript. Its graphical summary is therefore retained only in `reserve_graphical_abstract/` for a possible separate Infographic submission, which requires prior editorial-office contact. These formatting outputs do not indicate journal submission or acceptance. See [AI_USE.md](AI_USE.md) for the actual scope of AI assistance and human review responsibility.
+
 - `05_reproducibility/analysis_run/analysis/empirical_boundary.py`: preserved primary analysis.
 - `05_reproducibility/analysis_run/research/EMPIRICAL_PROTOCOL.md`: frozen exploratory protocol; not a prospective preregistration. Original published findings were already known.
 - `05_reproducibility/analysis_run/data/empirical/`: source data, predictions, participant/cell summaries and provenance.

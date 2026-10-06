@@ -1,0 +1,117 @@
+{
+  "purpose": "Journal-format exports only; no statistical analysis rerun",
+  "source_inputs_unchanged": true,
+  "input_sha256": {
+    "03_supplementary/table_S1_all_matched_contrasts.csv": "fcffa5e02183fca78cdbeca63fdb3e06989d46651e1c03c70be72b6dfc08f968",
+    "03_supplementary/table_S2_model_performance.csv": "6854ed3aee65850b1f8ab7f6d8078bfd40b5c94e18509795c40360851f41bf67",
+    "03_supplementary/table_S3_participant_coverage.csv": "d8e8007f12451004c9ca1720dc0191f566a2b42108c5daf691881d2eaacc1208",
+    "03_supplementary/table_S4_coverage_sensitivity.csv": "1e6bc8150e4247a259829b77d325c5491bf64cf500b2209e2cced16b316e06eb",
+    "03_supplementary/table_S5_paired_model_comparisons.csv": "72ae4cd1586fa697052a39a9c69b1ec985b3e8fcabbbebeaf56f1ff142960d29",
+    "05_reproducibility/analysis_run/analysis/empirical_boundary.py": "0062f99de8611a9867fabcce1b9120f190be596eaab19100750836c58110bae1",
+    "05_reproducibility/analysis_run/data/empirical/cell_aggregates.csv": "be16bd08858c2935da04cfd916be2e5ba55c897532c51969fcc791f8d9bb867d",
+    "05_reproducibility/analysis_run/data/empirical/coverage_sensitivity.json": "9345acd209c1305acb5ce65cca90476b5e8c9bdc4eb9a0b107174ea66c3a626d",
+    "05_reproducibility/analysis_run/data/empirical/cross_validation_participant_scores.csv": "5a9a36329e360afbb807752d0ab02ffa4f93b6e727b017320ff97058ed2baba1",
+    "05_reproducibility/analysis_run/data/empirical/METHODS_RESULTS.md": "9279f46be2c11402efad574b1365bc171f96e66f1544a7fa9058f327b7fc2c64",
+    "05_reproducibility/analysis_run/data/empirical/output_hashes.json": "b11bece2fc935d0f4e9b1fa3e90941fa8d9c958b628fd7eca55440465a82d1e4",
+    "05_reproducibility/analysis_run/data/empirical/participant_aggregates.csv": "e4ad3adc7b808f6c55ae92b410a11e995bd5479bf1fa1743154143bf3dca4f28",
+    "05_reproducibility/analysis_run/data/empirical/predictions.csv": "21f90770ed3341c8f89dd0efbb678bf45853ac0a2423000891a32eb19071f127",
+    "05_reproducibility/analysis_run/data/empirical/provenance.json": "df314d4f104299a738dcc3b7f5f2ca5c70da18960838317d48b70f3790b2387d",
+    "05_reproducibility/analysis_run/data/empirical/retained_trials.csv": "48e3852a103a48534cb7d4dca72312e8a980374e18b0af04ee599dfae77af841",
+    "05_reproducibility/analysis_run/data/empirical/source/behavioral_analysis.R": "7fdcbb3814dd107f625b43e65f04aa662727ce69f411aedeefee7a1309770a27",
+    "05_reproducibility/analysis_run/data/empirical/source/cued_perception_with_exclusions.csv": "7a4c7c13dd83f0bedf9517cfbdab6c033f415fc569135ab2293c1984dfc7b516",
+    "05_reproducibility/analysis_run/data/empirical/source/LICENSE": "9ce25fa34ca95f30300aaed84ea352959b30c6d646d7c70219e46f8cb0728819",
+    "05_reproducibility/analysis_run/data/empirical/summary.json": "0d389b01d5b02391deddb48dc38ea85f769691c93b6ee7d8b3929aab53507591",
+    "05_reproducibility/analysis_run/research/EMPIRICAL_PROTOCOL.md": "4e777d6a3bbf0088ca72abe0a4779b8a16336b0b8d67b883a1d5134e8eaa5c33",
+    "05_reproducibility/make_figures.py": "eaf3c16af346d022d96bf88a715e2167933d49f1672956082bda9b480c82c30a"
+  },
+  "panel_identifiers_preserved": true,
+  "numerical_content_changed": false,
+  "graphical_abstract": "reserve_only_not_for_upload",
+  "figure_S1": "Include with its legend in the separate supplementary document",
+  "figures": [
+    {
+      "stem": "figure_1_analysis_workflow",
+      "pdf_header_valid": true,
+      "svg_xml_valid": true,
+      "tiff_dimensions_px": [
+        4422,
+        2823
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "submission_role": "main_figure"
+    },
+    {
+      "stem": "figure_2_matched_contrasts",
+      "pdf_header_valid": true,
+      "svg_xml_valid": true,
+      "tiff_dimensions_px": [
+        5544,
+        2600
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "submission_role": "main_figure"
+    },
+    {
+      "stem": "figure_3_predictive_performance",
+      "pdf_header_valid": true,
+      "svg_xml_valid": true,
+      "tiff_dimensions_px": [
+        5541,
+        2776
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "submission_role": "main_figure"
+    },
+    {
+      "stem": "figure_4_coverage_sensitivity",
+      "pdf_header_valid": true,
+      "svg_xml_valid": true,
+      "tiff_dimensions_px": [
+        5547,
+        2359
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "submission_role": "main_figure"
+    },
+    {
+      "stem": "figure_S1_data_coverage",
+      "pdf_header_valid": true,
+      "svg_xml_valid": true,
+      "tiff_dimensions_px": [
+        5961,
+        3372
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "submission_role": "supplementary_figure_asset_include_with_legend"
+    },
+    {
+      "stem": "graphical_abstract",
+      "pdf_header_valid": true,
+      "svg_xml_valid": true,
+      "tiff_dimensions_px": [
+        5491,
+        2361
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "submission_role": "reserve_only_not_for_upload"
+    }
+  ]
+}
