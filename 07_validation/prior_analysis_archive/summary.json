@@ -1,0 +1,563 @@
+{
+  "analysis": "Exploratory secondary cue-perception boundary check",
+  "not_placebo_administration": true,
+  "protocol_sha256": "4e777d6a3bbf0088ca72abe0a4779b8a16336b0b8d67b883a1d5134e8eaa5c33",
+  "script_sha256": "0062f99de8611a9867fabcce1b9120f190be596eaab19100750836c58110bae1",
+  "source_commit": "84dc29cdaefcf78de489e990419a8a398419cb6d",
+  "seed": 20260904,
+  "bootstrap_replicates": 10000,
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "sample": {
+    "source_rows": 6480,
+    "source_participants": 45,
+    "technical_flag_total": 211,
+    "rt_flag_total_including_overlap": 337,
+    "both_flags": 103,
+    "technical_removed_first": 211,
+    "rt_removed_after_technical": 234,
+    "missing_or_nonfinite_removed_after_flags": 0,
+    "retained_trials": 6035,
+    "retained_participants": 45,
+    "by_modality": {
+      "pain": {
+        "trials": 3005,
+        "participants": 45
+      },
+      "vision": {
+        "trials": 3030,
+        "participants": 45
+      }
+    },
+    "paper_exclusion_counts_match": true
+  },
+  "contrasts": {
+    "pain": {
+      "cue_effect_high_sd_minus_low_sd": {
+        "n_participants": 45,
+        "mean": 0.2852469129050623,
+        "median": 0.44444444294444924,
+        "participant_sd": 7.385891099914784,
+        "standard_error": 1.1010236382546765,
+        "ci95_percentile": [
+          -1.7688287044983346,
+          2.4864917689785164
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 265,
+        "expected_contrasts": 270,
+        "participants_with_full_coverage": 43
+      },
+      "cue_high_minus_low": {
+        "n_participants": 45,
+        "mean": 12.082889075943573,
+        "median": 10.962962962499995,
+        "participant_sd": 9.605841099171457,
+        "standard_error": 1.4319542452539116,
+        "ci95_percentile": [
+          9.306051837871811,
+          14.934359451015126
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 531,
+        "expected_contrasts": 540,
+        "participants_with_full_coverage": 43
+      },
+      "cue_high_minus_low_high_sd_low_precision": {
+        "n_participants": 45,
+        "mean": 12.182818929700618,
+        "median": 11.148148146944445,
+        "participant_sd": 9.349427056565185,
+        "standard_error": 1.3937302966103682,
+        "ci95_percentile": [
+          9.552214505864292,
+          14.922934670634678
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 266,
+        "expected_contrasts": 270,
+        "participants_with_full_coverage": 44
+      },
+      "cue_high_minus_low_low_sd_high_precision": {
+        "n_participants": 45,
+        "mean": 11.95769547358889,
+        "median": 11.500000000000002,
+        "participant_sd": 11.128071020401872,
+        "standard_error": 1.658874884004269,
+        "ci95_percentile": [
+          8.826918724585322,
+          15.221707819151495
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 265,
+        "expected_contrasts": 270,
+        "participants_with_full_coverage": 43
+      },
+      "cue_high_minus_low_stimulus_1": {
+        "n_participants": 45,
+        "mean": 12.34300411534469,
+        "median": 12.851851853888883,
+        "participant_sd": 10.314452484620732,
+        "standard_error": 1.5375877937535707,
+        "ci95_percentile": [
+          9.392155349802703,
+          15.360576132263638
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 265,
+        "expected_contrasts": 270,
+        "participants_with_full_coverage": 43
+      },
+      "cue_high_minus_low_stimulus_1_high_sd_low_precision": {
+        "n_participants": 45,
+        "mean": 12.522222221962961,
+        "median": 11.481481481666668,
+        "participant_sd": 9.61129973301919,
+        "standard_error": 1.4327679703437657,
+        "ci95_percentile": [
+          9.72959876502241,
+          15.384372427936976
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 133,
+        "expected_contrasts": 135,
+        "participants_with_full_coverage": 44
+      },
+      "cue_high_minus_low_stimulus_1_low_sd_high_precision": {
+        "n_participants": 45,
+        "mean": 12.087037037525924,
+        "median": 12.185185184222226,
+        "participant_sd": 12.84772800587421,
+        "standard_error": 1.9152262118375032,
+        "ci95_percentile": [
+          8.420339507029567,
+          15.752582304756235
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 132,
+        "expected_contrasts": 135,
+        "participants_with_full_coverage": 43
+      },
+      "cue_high_minus_low_stimulus_2": {
+        "n_participants": 45,
+        "mean": 11.817386831148767,
+        "median": 10.444444442500002,
+        "participant_sd": 10.329593783446155,
+        "standard_error": 1.5398449253163229,
+        "ci95_percentile": [
+          8.931965020297655,
+          14.871831275640803
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 266,
+        "expected_contrasts": 270,
+        "participants_with_full_coverage": 44
+      },
+      "cue_high_minus_low_stimulus_2_high_sd_low_precision": {
+        "n_participants": 45,
+        "mean": 11.843415637438273,
+        "median": 11.962962963333332,
+        "participant_sd": 10.78052899388719,
+        "standard_error": 1.6070663775826113,
+        "ci95_percentile": [
+          8.854110081884414,
+          15.056620369897594
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 133,
+        "expected_contrasts": 135,
+        "participants_with_full_coverage": 44
+      },
+      "cue_high_minus_low_stimulus_2_low_sd_high_precision": {
+        "n_participants": 45,
+        "mean": 11.791358024859258,
+        "median": 10.22222222,
+        "participant_sd": 11.83836261478675,
+        "standard_error": 1.7647589032636886,
+        "ci95_percentile": [
+          8.348127572020617,
+          15.27256172858713
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 133,
+        "expected_contrasts": 135,
+        "participants_with_full_coverage": 44
+      },
+      "uncertainty_high_sd_minus_low_sd": {
+        "n_participants": 45,
+        "mean": 0.5293443695259541,
+        "median": 0.2407407413055521,
+        "participant_sd": 4.599872870685701,
+        "standard_error": 0.6857085617806884,
+        "ci95_percentile": [
+          -0.7759661430357062,
+          1.8984500094671641
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 533,
+        "expected_contrasts": 540,
+        "participants_with_full_coverage": 43
+      }
+    },
+    "vision": {
+      "cue_effect_high_sd_minus_low_sd": {
+        "n_participants": 45,
+        "mean": -1.2018930037753088,
+        "median": -1.0185185177777782,
+        "participant_sd": 5.602313981686865,
+        "standard_error": 0.8351436596232894,
+        "ci95_percentile": [
+          -2.7977376542007106,
+          0.41405246955530706
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 264,
+        "expected_contrasts": 270,
+        "participants_with_full_coverage": 43
+      },
+      "cue_high_minus_low": {
+        "n_participants": 45,
+        "mean": 9.932803965420819,
+        "median": 9.037037036944442,
+        "participant_sd": 8.08429229602761,
+        "standard_error": 1.2051351415930391,
+        "ci95_percentile": [
+          7.6500465765010395,
+          12.27864328435434
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 532,
+        "expected_contrasts": 540,
+        "participants_with_full_coverage": 43
+      },
+      "cue_high_minus_low_high_sd_low_precision": {
+        "n_participants": 45,
+        "mean": 9.104259259298148,
+        "median": 8.70370370388889,
+        "participant_sd": 7.972893571857117,
+        "standard_error": 1.1885288002695744,
+        "ci95_percentile": [
+          6.849305555701389,
+          11.463472222166818
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 264,
+        "expected_contrasts": 270,
+        "participants_with_full_coverage": 43
+      },
+      "cue_high_minus_low_low_sd_high_precision": {
+        "n_participants": 45,
+        "mean": 10.481790123089505,
+        "median": 9.981481482222224,
+        "participant_sd": 9.118275494554174,
+        "standard_error": 1.3592722562262431,
+        "ci95_percentile": [
+          7.826543209554476,
+          13.104706789722526
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 268,
+        "expected_contrasts": 270,
+        "participants_with_full_coverage": 44
+      },
+      "cue_high_minus_low_stimulus_1": {
+        "n_participants": 45,
+        "mean": 10.479732510146913,
+        "median": 10.379629628611111,
+        "participant_sd": 8.999964130471833,
+        "standard_error": 1.3416354393863201,
+        "ci95_percentile": [
+          7.889290123242221,
+          13.05435442342188
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 265,
+        "expected_contrasts": 270,
+        "participants_with_full_coverage": 43
+      },
+      "cue_high_minus_low_stimulus_1_high_sd_low_precision": {
+        "n_participants": 44,
+        "mean": 9.297769360372477,
+        "median": 8.814814815000002,
+        "participant_sd": 9.059600584027653,
+        "standard_error": 1.365786176713835,
+        "ci95_percentile": [
+          6.697074916359215,
+          11.936447811120582
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 131,
+        "expected_contrasts": 132,
+        "participants_with_full_coverage": 43
+      },
+      "cue_high_minus_low_stimulus_1_low_sd_high_precision": {
+        "n_participants": 45,
+        "mean": 11.349382715753089,
+        "median": 9.444444445555554,
+        "participant_sd": 10.277710740534394,
+        "standard_error": 1.5321106579276405,
+        "ci95_percentile": [
+          8.393004114912962,
+          14.371213991283645
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 134,
+        "expected_contrasts": 135,
+        "participants_with_full_coverage": 44
+      },
+      "cue_high_minus_low_stimulus_2": {
+        "n_participants": 45,
+        "mean": 9.423971193234568,
+        "median": 8.444444445555558,
+        "participant_sd": 8.366089317536117,
+        "standard_error": 1.2471429613230387,
+        "ci95_percentile": [
+          7.067793209625461,
+          11.895735596771912
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 267,
+        "expected_contrasts": 270,
+        "participants_with_full_coverage": 44
+      },
+      "cue_high_minus_low_stimulus_2_high_sd_low_precision": {
+        "n_participants": 45,
+        "mean": 9.090534979487654,
+        "median": 9.074074075555552,
+        "participant_sd": 8.46425332424958,
+        "standard_error": 1.2617763874533752,
+        "ci95_percentile": [
+          6.744403292190743,
+          11.574917695415897
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 133,
+        "expected_contrasts": 135,
+        "participants_with_full_coverage": 44
+      },
+      "cue_high_minus_low_stimulus_2_low_sd_high_precision": {
+        "n_participants": 45,
+        "mean": 9.614197530425924,
+        "median": 10.388888888333328,
+        "participant_sd": 9.629344724837033,
+        "standard_error": 1.4354579589009742,
+        "ci95_percentile": [
+          6.849166666137037,
+          12.438693415005245
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 134,
+        "expected_contrasts": 135,
+        "participants_with_full_coverage": 44
+      },
+      "uncertainty_high_sd_minus_low_sd": {
+        "n_participants": 45,
+        "mean": 1.2096296294925923,
+        "median": 0.29629629749999903,
+        "participant_sd": 3.78588696909423,
+        "standard_error": 0.5643667078683562,
+        "ci95_percentile": [
+          0.1534146088275152,
+          2.4029835388265437
+        ],
+        "bootstrap_replicates": 10000,
+        "matched_contrasts": 530,
+        "expected_contrasts": 540,
+        "participants_with_full_coverage": 43
+      }
+    }
+  },
+  "cross_validation": {
+    "pain": {
+      "n_participants": 45,
+      "n_trials": 3005,
+      "models": {
+        "sensory_only": {
+          "equal_participant_rmse": 22.466920480980033,
+          "rmse_ci95_conditional_percentile": [
+            20.536618680053877,
+            24.44910984015937
+          ],
+          "equal_participant_mae": 18.33659073175355,
+          "mae_ci95_conditional_percentile": [
+            16.64690428235817,
+            20.21131247656364
+          ]
+        },
+        "additive_cue": {
+          "equal_participant_rmse": 21.669488410104652,
+          "rmse_ci95_conditional_percentile": [
+            19.573812531667787,
+            23.81854005678609
+          ],
+          "equal_participant_mae": 17.254025784844092,
+          "mae_ci95_conditional_percentile": [
+            15.479671832124794,
+            19.228804125197442
+          ]
+        },
+        "cue_x_uncertainty": {
+          "equal_participant_rmse": 21.67237895736207,
+          "rmse_ci95_conditional_percentile": [
+            19.5771590833303,
+            23.82175903322812
+          ],
+          "equal_participant_mae": 17.257452872657026,
+          "mae_ci95_conditional_percentile": [
+            15.482621087843642,
+            19.230486232292943
+          ]
+        }
+      },
+      "comparisons": {
+        "sensory_only_minus_additive_cue": {
+          "rmse_improvement": 0.7974320708753808,
+          "rmse_improvement_ci95_conditional": [
+            0.3992059418389429,
+            1.2329242089465142
+          ],
+          "mae_improvement": 1.0825649469094571,
+          "mae_improvement_ci95_conditional": [
+            0.6915935466570053,
+            1.47849148587444
+          ],
+          "participants_with_lower_mse": 30,
+          "interpretation": "Positive improvement favors the candidate model."
+        },
+        "additive_cue_minus_cue_x_uncertainty": {
+          "rmse_improvement": -0.002890547257418774,
+          "rmse_improvement_ci95_conditional": [
+            -0.004429106158175688,
+            -0.0015625890373507374
+          ],
+          "mae_improvement": -0.0034270878129341042,
+          "mae_improvement_ci95_conditional": [
+            -0.005747454941136976,
+            -0.0016110550929015592
+          ],
+          "participants_with_lower_mse": 15,
+          "interpretation": "Positive improvement favors the candidate model."
+        },
+        "sensory_only_minus_cue_x_uncertainty": {
+          "rmse_improvement": 0.794541523617962,
+          "rmse_improvement_ci95_conditional": [
+            0.3953116522417484,
+            1.2299412858680665
+          ],
+          "mae_improvement": 1.079137859096523,
+          "mae_improvement_ci95_conditional": [
+            0.6878767463267897,
+            1.4742339748374458
+          ],
+          "participants_with_lower_mse": 30,
+          "interpretation": "Positive improvement favors the candidate model."
+        }
+      }
+    },
+    "vision": {
+      "n_participants": 45,
+      "n_trials": 3030,
+      "models": {
+        "sensory_only": {
+          "equal_participant_rmse": 16.352445937026133,
+          "rmse_ci95_conditional_percentile": [
+            15.026980293510249,
+            17.733411137204182
+          ],
+          "equal_participant_mae": 13.361684223191325,
+          "mae_ci95_conditional_percentile": [
+            12.151468154304064,
+            14.672494212513975
+          ]
+        },
+        "additive_cue": {
+          "equal_participant_rmse": 15.613534279671905,
+          "rmse_ci95_conditional_percentile": [
+            14.173249271696195,
+            17.126349917303752
+          ],
+          "equal_participant_mae": 12.481901403967258,
+          "mae_ci95_conditional_percentile": [
+            11.27260838897266,
+            13.825663399112033
+          ]
+        },
+        "cue_x_uncertainty": {
+          "equal_participant_rmse": 15.613002189865442,
+          "rmse_ci95_conditional_percentile": [
+            14.171748083964319,
+            17.13136492946428
+          ],
+          "equal_participant_mae": 12.474862200444484,
+          "mae_ci95_conditional_percentile": [
+            11.266965567206425,
+            13.819338606364417
+          ]
+        }
+      },
+      "comparisons": {
+        "sensory_only_minus_additive_cue": {
+          "rmse_improvement": 0.7389116573542278,
+          "rmse_improvement_ci95_conditional": [
+            0.37941538978820816,
+            1.1253800535177636
+          ],
+          "mae_improvement": 0.8797828192240669,
+          "mae_improvement_ci95_conditional": [
+            0.5454252711867914,
+            1.2143455006124224
+          ],
+          "participants_with_lower_mse": 31,
+          "interpretation": "Positive improvement favors the candidate model."
+        },
+        "additive_cue_minus_cue_x_uncertainty": {
+          "rmse_improvement": 0.0005320898064624657,
+          "rmse_improvement_ci95_conditional": [
+            -0.009377258857503979,
+            0.01007162638650931
+          ],
+          "mae_improvement": 0.007039203522774429,
+          "mae_improvement_ci95_conditional": [
+            -0.00328989306327041,
+            0.017201107347494644
+          ],
+          "participants_with_lower_mse": 24,
+          "interpretation": "Positive improvement favors the candidate model."
+        },
+        "sensory_only_minus_cue_x_uncertainty": {
+          "rmse_improvement": 0.7394437471606903,
+          "rmse_improvement_ci95_conditional": [
+            0.3786484367597614,
+            1.127061661901853
+          ],
+          "mae_improvement": 0.8868220227468413,
+          "mae_improvement_ci95_conditional": [
+            0.5525325039040436,
+            1.2213791341282056
+          ],
+          "participants_with_lower_mse": 31,
+          "interpretation": "Positive improvement favors the candidate model."
+        }
+      }
+    }
+  },
+  "checks": {
+    "disjoint_participant_folds": 90,
+    "all_predictions_finite": true,
+    "prediction_count_equals_retained_trials": true,
+    "reporting_vs_perception_relabeling_max_abs_prediction_difference": 0.0,
+    "equality_is_algebraic_not_a_test_of_neural_mechanisms": true,
+    "unique_source_trial_keys": true,
+    "source_row_accounting": true,
+    "ratings_in_0_to_100": true,
+    "retained_rt_in_0_2_to_4_5_seconds": true,
+    "cell_count": 2140,
+    "no_missing_outcomes_after_flags": true,
+    "source_exclusion_counts_match_paper": true,
+    "outcome_normalization_uses_no_held_out_data": true,
+    "original_predictions_ignored": true
+  },
+  "protocol_deviations": []
+}

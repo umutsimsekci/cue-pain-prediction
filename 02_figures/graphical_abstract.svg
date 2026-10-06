@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="658.98pt" height="283.392pt" viewBox="0 0 658.98 283.392" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-06T14:53:08.855983</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.7, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 283.392 
+L 658.98 283.392 
+L 658.98 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 25.9659 213.54624 
+L 196.6581 213.54624 
+Q 204.3585 213.54624 204.3585 210.352896 
+L 204.3585 70.377984 
+Q 204.3585 67.18464 196.6581 67.18464 
+L 25.9659 67.18464 
+Q 18.2655 67.18464 18.2655 70.377984 
+L 18.2655 210.352896 
+Q 18.2655 213.54624 25.9659 213.54624 
+z
+" clip-path="url(#pbefa44af11)" style="fill: #f2f5f7; stroke: #b7c1c9; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 244.1439 213.54624 
+L 414.8361 213.54624 
+Q 422.5365 213.54624 422.5365 210.352896 
+L 422.5365 70.377984 
+Q 422.5365 67.18464 414.8361 67.18464 
+L 244.1439 67.18464 
+Q 236.4435 67.18464 236.4435 70.377984 
+L 236.4435 210.352896 
+Q 236.4435 213.54624 244.1439 213.54624 
+z
+" clip-path="url(#pbefa44af11)" style="fill: #f2f5f7; stroke: #b7c1c9; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 462.3219 213.54624 
+L 633.0141 213.54624 
+Q 640.7145 213.54624 640.7145 210.352896 
+L 640.7145 70.377984 
+Q 640.7145 67.18464 633.0141 67.18464 
+L 462.3219 67.18464 
+Q 454.6215 67.18464 454.6215 70.377984 
+L 454.6215 210.352896 
+Q 454.6215 213.54624 462.3219 213.54624 
+z
+" clip-path="url(#pbefa44af11)" style="fill: #f2f5f7; stroke: #b7c1c9; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 204.434796 140.36544 
+Q 218.475892 140.36544 231.175348 140.36544 
+" clip-path="url(#pbefa44af11)" style="fill: none; stroke: #4b5560; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 225.575348 137.56544 
+L 231.175348 140.36544 
+L 225.575348 143.16544 
+z
+" clip-path="url(#pbefa44af11)" style="fill: #4b5560; stroke: #4b5560; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 422.612796 140.36544 
+Q 436.653892 140.36544 449.353348 140.36544 
+" clip-path="url(#pbefa44af11)" style="fill: none; stroke: #4b5560; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 443.753348 137.56544 
+L 449.353348 140.36544 
+L 443.753348 143.16544 
+z
+" clip-path="url(#pbefa44af11)" style="fill: #4b5560; stroke: #4b5560; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start" x="27.891" y="34.862944" transform="rotate(-0 27.891 34.862944)">Contextual cues and prediction of pain and visual ratings</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4c5963" x="27.891" y="44.56512" transform="rotate(-0 27.891 44.56512)">Exploratory secondary analysis of public behavioural data</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(97.141766 100.17926)">DATA</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(111.312 114.586424)"/>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(69.836844 128.993588)">45 participants</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(55.424266 143.400752)">6,035 retained trials</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(111.312 157.807917)"/>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(26.469344 172.215081)">Thermal pain + visual contrast</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(27.217859 186.622245)">Social cue mean, SD and skew</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(253.056328 92.975678)">WITHIN-PERSON CONTRAST</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(329.49 107.382842)"/>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(258.252109 121.790006)">High minus low cue mean</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(329.49 136.19717)"/>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(280.051016 150.604335)">Pain: 12.08 points</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(278.592656 165.011499)">Vision: 9.93 points</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(329.49 179.418663)"/>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(243.928906 193.825827)">Stable with complete coverage</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(483.421984 85.772096)">HELD-OUT PREDICTION</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(547.668 100.17926)"/>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(490.06925 114.586424)">Adding cue variables</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(500.118781 128.993588)">reduces RMSE by</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(547.668 143.400752)"/>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(498.229016 157.807917)">Pain: 0.797 points</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(493.271281 172.215081)">Vision: 0.739 points</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(547.668 186.622245)"/>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(459.725578 201.029409)">Interaction adds almost nothing</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="329.49" y="234.8352" transform="rotate(-0 329.49 234.8352)">Condition differences and predictive gains answer different questions</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #4c5963" x="329.49" y="256.12416" transform="rotate(-0 329.49 256.12416)">One cohort  |  Modality-specific rating scales  |  Conditional predictive uncertainty</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pbefa44af11">
+   <rect x="8.64" y="8.64" width="641.7" height="266.112"/>
+  </clipPath>
+ </defs>
+</svg>

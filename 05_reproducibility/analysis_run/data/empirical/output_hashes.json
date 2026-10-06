@@ -1,0 +1,30 @@
+{
+  "retained_trials.csv": {
+    "sha256": "48e3852a103a48534cb7d4dca72312e8a980374e18b0af04ee599dfae77af841",
+    "bytes": 395509
+  },
+  "cell_aggregates.csv": {
+    "sha256": "be16bd08858c2935da04cfd916be2e5ba55c897532c51969fcc791f8d9bb867d",
+    "bytes": 96326
+  },
+  "participant_aggregates.csv": {
+    "sha256": "e4ad3adc7b808f6c55ae92b410a11e995bd5479bf1fa1743154143bf3dca4f28",
+    "bytes": 79959
+  },
+  "predictions.csv": {
+    "sha256": "21f90770ed3341c8f89dd0efbb678bf45853ac0a2423000891a32eb19071f127",
+    "bytes": 723937
+  },
+  "cross_validation_participant_scores.csv": {
+    "sha256": "5a9a36329e360afbb807752d0ab02ffa4f93b6e727b017320ff97058ed2baba1",
+    "bytes": 40753
+  },
+  "summary.json": {
+    "sha256": "0d389b01d5b02391deddb48dc38ea85f769691c93b6ee7d8b3929aab53507591",
+    "bytes": 19363
+  },
+  "METHODS_RESULTS.md": {
+    "sha256": "9279f46be2c11402efad574b1365bc171f96e66f1544a7fa9058f327b7fc2c64",
+    "bytes": 6392
+  }
+}

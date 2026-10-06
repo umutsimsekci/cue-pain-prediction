@@ -1,0 +1,95 @@
+{
+  "checked_on": "2026-10-05",
+  "consecutive_replays_hash_identical": true,
+  "archived_numeric_results_reproduced_with_tolerance": true,
+  "max_absolute_numeric_difference_from_archive": 0,
+  "independent_prediction_metrics": [
+    {
+      "modality": "pain",
+      "model": "sensory_only",
+      "rmse": 22.466920480980033
+    },
+    {
+      "modality": "pain",
+      "model": "additive_cue",
+      "rmse": 21.669488410104652
+    },
+    {
+      "modality": "pain",
+      "model": "cue_x_uncertainty",
+      "rmse": 21.67237895736207
+    },
+    {
+      "modality": "vision",
+      "model": "sensory_only",
+      "rmse": 16.352445937026133
+    },
+    {
+      "modality": "vision",
+      "model": "additive_cue",
+      "rmse": 15.613534279671905
+    },
+    {
+      "modality": "vision",
+      "model": "cue_x_uncertainty",
+      "rmse": 15.613002189865442
+    }
+  ],
+  "input_and_source_hashes_unchanged": true,
+  "unique_retained_rows": 6035,
+  "coverage_sensitivity_status": "Post-protocol exploratory addition; original primary analysis retained",
+  "coverage_sensitivity_seed": 20261005,
+  "coverage_sensitivity_bootstraps": 10000,
+  "coverage_sensitivity": [
+    {
+      "modality": "pain",
+      "estimand": "cue_high_minus_low",
+      "participants": 43,
+      "all_45_mean": 12.082889075943573,
+      "full_coverage_mean": 11.983150301490635,
+      "full_coverage_exploratory_ci95": [
+        9.153099429333924,
+        14.868246662433817
+      ]
+    },
+    {
+      "modality": "pain",
+      "estimand": "cue_effect_high_sd_minus_low_sd",
+      "participants": 43,
+      "all_45_mean": 0.2852469129050623,
+      "full_coverage_mean": -0.5048449618791983,
+      "full_coverage_exploratory_ci95": [
+        -2.3910448970502753,
+        1.362569982284657
+      ]
+    },
+    {
+      "modality": "vision",
+      "estimand": "cue_high_minus_low",
+      "participants": 43,
+      "all_45_mean": 9.932803965420819,
+      "full_coverage_mean": 9.895241171295218,
+      "full_coverage_exploratory_ci95": [
+        7.557781546049821,
+        12.35940191632033
+      ]
+    },
+    {
+      "modality": "vision",
+      "estimand": "cue_effect_high_sd_minus_low_sd",
+      "participants": 43,
+      "all_45_mean": -1.2018930037753088,
+      "full_coverage_mean": -0.9474590866020676,
+      "full_coverage_exploratory_ci95": [
+        -2.4580157187974807,
+        0.6537790703926023
+      ]
+    }
+  ],
+  "limits": [
+    "One cohort only",
+    "Predictive bootstrap does not refit models",
+    "No clinical or neural mechanism validation",
+    "Publication and institutional ethical status await author confirmation"
+  ]
+}

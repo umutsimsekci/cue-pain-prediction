@@ -1,0 +1,38 @@
+{
+  "repository": "https://github.com/rotemb9/PPRI-paper",
+  "release": "v2.0.0",
+  "commit": "84dc29cdaefcf78de489e990419a8a398419cb6d",
+  "paper_doi": "10.1371/journal.pcbi.1013053",
+  "license": "MIT; original copyright notice retained in source/LICENSE",
+  "protocol_path": "research/EMPIRICAL_PROTOCOL.md",
+  "protocol_sha256": "4e777d6a3bbf0088ca72abe0a4779b8a16336b0b8d67b883a1d5134e8eaa5c33",
+  "source_files": [
+    {
+      "local_path": "data/empirical/source/cued_perception_with_exclusions.csv",
+      "upstream_path": "data_for_analysis/processed_data/task-expectpercept_all_subjs_with_pred_and_exclusions.csv",
+      "url": "https://raw.githubusercontent.com/rotemb9/PPRI-paper/84dc29cdaefcf78de489e990419a8a398419cb6d/data_for_analysis/processed_data/task-expectpercept_all_subjs_with_pred_and_exclusions.csv",
+      "sha256": "7a4c7c13dd83f0bedf9517cfbdab6c033f415fc569135ab2293c1984dfc7b516",
+      "bytes": 2194351,
+      "local_download_mtime_utc": "2026-09-03T22:02:16.466519+00:00"
+    },
+    {
+      "local_path": "data/empirical/source/behavioral_analysis.R",
+      "upstream_path": "analysis/behavioral_analysis.R",
+      "url": "https://raw.githubusercontent.com/rotemb9/PPRI-paper/84dc29cdaefcf78de489e990419a8a398419cb6d/analysis/behavioral_analysis.R",
+      "sha256": "7fdcbb3814dd107f625b43e65f04aa662727ce69f411aedeefee7a1309770a27",
+      "bytes": 40851,
+      "local_download_mtime_utc": "2026-09-03T22:01:50.699621+00:00"
+    },
+    {
+      "local_path": "data/empirical/source/LICENSE",
+      "upstream_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/rotemb9/PPRI-paper/84dc29cdaefcf78de489e990419a8a398419cb6d/LICENSE",
+      "sha256": "9ce25fa34ca95f30300aaed84ea352959b30c6d646d7c70219e46f8cb0728819",
+      "bytes": 1077,
+      "local_download_mtime_utc": "2026-09-03T22:01:51.017173+00:00"
+    }
+  ],
+  "only_fields_in_retained_trials_are_analyzed": true,
+  "upstream_predicted_expect_and_vas_mean_are_ignored": true,
+  "demographic_questionnaire_and_imaging_files_not_downloaded": true
+}
