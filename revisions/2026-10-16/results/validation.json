@@ -1,0 +1,26 @@
+{
+  "all_frozen_inputs_unchanged_before_run": true,
+  "unique_source_rows": 6035,
+  "disjoint_participant_folds": 90,
+  "fit_count": 360,
+  "max_original_prediction_difference": 0.0,
+  "max_qr_vs_lstsq_prediction_difference": 7.673861546209082e-13,
+  "max_weight_total_deviation": 1.7763568394002505e-15,
+  "max_original_rmse_mae_difference": 0.0,
+  "full_rank_all_models": true,
+  "nested_training_weighted_sse_nonincreasing": true,
+  "source_design_exact_match": true,
+  "max_standard_library_metric_difference": 3.552713678800501e-15,
+  "output_rows": {
+    "fold_coefficients": 2340,
+    "fold_metrics": 360,
+    "model_metrics": 8,
+    "pairwise_comparisons": 12,
+    "participant_gains": 540,
+    "participant_gain_distribution_summary": 36,
+    "predictions": 6035
+  },
+  "all_frozen_inputs_unchanged_after_run": true,
+  "plan_preceded_new_run": true,
+  "finished_at_utc": "2026-10-16T07:27:10.464081+00:00"
+}

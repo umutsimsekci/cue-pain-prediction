@@ -4,7 +4,27 @@ Reproducible code and calculations for an exploratory secondary analysis of pain
 
 ![Graphical abstract](02_figures/graphical_abstract.svg)
 
-## What was done
+## Revision of 16 October 2026
+
+The current research question is whether cue distribution shape adds participant-held-out predictive information beyond cue mean. A dated exploratory ablation adds one cue-mean-only model, preserves the original sample and models, and reports all four models and six pairwise comparisons for both modalities. The original experiment is credited to Botvinik-Nezer et al. (2025); this revision is neither a new experiment nor independent-cohort validation.
+
+| Modality | M0: stimulus + time | M1: + cue mean | M2: + SD and skewness | M3: + mean × SD |
+|---|---:|---:|---:|---:|
+| Pain RMSE | 22.466920 | 21.660252 | 21.669488 | 21.672379 |
+| Vision RMSE | 16.352446 | 15.622626 | 15.613534 | 15.613002 |
+
+The model including cue mean recovered most of the aggregate improvement in these fixed models. Adding SD/skewness produces an RMSE improvement of approximately -0.009 points for pain and +0.009 for vision (positive means lower error; negative means higher error). This near-zero incremental improvement is not evidence of equivalence or absence of uncertainty effects. Participant gains vary. Conditional descriptive intervals do not capture the full model-fitting process.
+
+See [the complete revision and replay instructions](revisions/2026-10-16/README.md), [all results](revisions/2026-10-16/RESULTS_AND_METHODS.md) and [figure captions](revisions/2026-10-16/figures/captions.md). The archived calculation, local plan freeze and a later path-only replay adapter are supplied separately. Run from the repository root:
+
+```sh
+python -m pip install -r revisions/2026-10-16/requirements.txt
+python revisions/2026-10-16/reproduce_revision.py
+```
+
+This version is being prepared for journal submission; it is not accepted or published. Public code availability does not imply a new reuse licence; existing licence terms and upstream MIT attribution below remain unchanged. Historical journal-format exports are retained as such and do not indicate current review status.
+
+## Original analysis (6 October 2026)
 
 We analysed 6,035 retained trials from 45 participants in an existing cued-perception experiment. Three fixed weighted linear models were compared using leave-one-participant-out cross-validation, separately for pain and vision. All trials from the test participant were excluded from fitting and temporal scaling. Training and evaluation gave each participant equal weight.
 

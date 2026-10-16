@@ -1,0 +1,63 @@
+{
+  "original_script_sha256": "bc53925e0fee625bf0f27fd83e6c3b5255ba8911a4782eec1da32d921a7758ee",
+  "original_plan_sha256": "7c2d145e40492ed3a53e66690f36798ecbeb4462919d717809ef90baa83569fc",
+  "original_plan_frozen_at_utc": "2026-10-16T07:22:46.792550+00:00",
+  "original_run_started_at_utc": "2026-10-16T07:27:02.973152+00:00",
+  "source_commit": "84dc29cdaefcf78de489e990419a8a398419cb6d",
+  "public_repository_base_commit": "f5374884dbbc8ec74ae1ad145a91e2173b9539b6",
+  "software_original_run": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.7"
+  },
+  "adapter_status": "Path-only replay adapter prepared after original analysis; not part of the pre-run local plan freeze.",
+  "scientific_implementation_changed": false,
+  "path_mappings": [
+    {
+      "original_label": "perception_submission_2026-10-16/02_analysis/REVISION_ANALYSIS_PLAN.md",
+      "repository_path": "revisions/2026-10-16/REVISION_ANALYSIS_PLAN.md",
+      "sha256": "7c2d145e40492ed3a53e66690f36798ecbeb4462919d717809ef90baa83569fc"
+    },
+    {
+      "original_label": "submission_package_2026-10-06/05_reproducibility/analysis_run/analysis/empirical_boundary.py",
+      "repository_path": "05_reproducibility/analysis_run/analysis/empirical_boundary.py",
+      "sha256": "0062f99de8611a9867fabcce1b9120f190be596eaab19100750836c58110bae1"
+    },
+    {
+      "original_label": "submission_package_2026-10-06/05_reproducibility/analysis_run/data/empirical/retained_trials.csv",
+      "repository_path": "05_reproducibility/analysis_run/data/empirical/retained_trials.csv",
+      "sha256": "48e3852a103a48534cb7d4dca72312e8a980374e18b0af04ee599dfae77af841"
+    },
+    {
+      "original_label": "submission_package_2026-10-06/05_reproducibility/analysis_run/data/empirical/predictions.csv",
+      "repository_path": "05_reproducibility/analysis_run/data/empirical/predictions.csv",
+      "sha256": "21f90770ed3341c8f89dd0efbb678bf45853ac0a2423000891a32eb19071f127"
+    },
+    {
+      "original_label": "submission_package_2026-10-06/05_reproducibility/analysis_run/data/empirical/cross_validation_participant_scores.csv",
+      "repository_path": "05_reproducibility/analysis_run/data/empirical/cross_validation_participant_scores.csv",
+      "sha256": "5a9a36329e360afbb807752d0ab02ffa4f93b6e727b017320ff97058ed2baba1"
+    },
+    {
+      "original_label": "submission_package_2026-10-06/05_reproducibility/analysis_run/data/empirical/summary.json",
+      "repository_path": "05_reproducibility/analysis_run/data/empirical/summary.json",
+      "sha256": "0d389b01d5b02391deddb48dc38ea85f769691c93b6ee7d8b3929aab53507591"
+    },
+    {
+      "original_label": "submission_package_2026-10-06/05_reproducibility/analysis_run/data/empirical/provenance.json",
+      "repository_path": "05_reproducibility/analysis_run/data/empirical/provenance.json",
+      "sha256": "df314d4f104299a738dcc3b7f5f2ca5c70da18960838317d48b70f3790b2387d"
+    },
+    {
+      "original_label": "submission_package_2026-10-06/05_reproducibility/analysis_run/data/empirical/source/cued_perception_with_exclusions.csv",
+      "repository_path": "05_reproducibility/analysis_run/data/empirical/source/cued_perception_with_exclusions.csv",
+      "sha256": "7a4c7c13dd83f0bedf9517cfbdab6c033f415fc569135ab2293c1984dfc7b516"
+    },
+    {
+      "original_label": "submission_package_2026-10-06/05_reproducibility/analysis_run/research/EMPIRICAL_PROTOCOL.md",
+      "repository_path": "05_reproducibility/analysis_run/research/EMPIRICAL_PROTOCOL.md",
+      "sha256": "4e777d6a3bbf0088ca72abe0a4779b8a16336b0b8d67b883a1d5134e8eaa5c33"
+    }
+  ],
+  "licensing": "Existing terms preserved. Public accessibility does not grant a new reuse licence for the secondary-analysis code; upstream material retains its original MIT notice."
+}

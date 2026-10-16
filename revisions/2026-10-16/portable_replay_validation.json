@@ -1,0 +1,52 @@
+{
+  "verified_at_utc": "2026-10-16T07:35:33.217218+00:00",
+  "all_numeric_comparisons_passed": true,
+  "absolute_tolerance": 1e-09,
+  "relative_tolerance": 1e-11,
+  "csv_comparisons": {
+    "results/fold_coefficients.csv": {
+      "rows": 2340,
+      "max_absolute_numeric_difference": 0.0
+    },
+    "results/fold_metrics.csv": {
+      "rows": 360,
+      "max_absolute_numeric_difference": 0.0
+    },
+    "results/model_metrics.csv": {
+      "rows": 8,
+      "max_absolute_numeric_difference": 0.0
+    },
+    "results/pairwise_comparisons.csv": {
+      "rows": 12,
+      "max_absolute_numeric_difference": 0.0
+    },
+    "results/participant_gain_distribution_summary.csv": {
+      "rows": 36,
+      "max_absolute_numeric_difference": 0.0
+    },
+    "results/participant_gains.csv": {
+      "rows": 540,
+      "max_absolute_numeric_difference": 0.0
+    },
+    "results/predictions.csv": {
+      "rows": 6035,
+      "max_absolute_numeric_difference": 0.0
+    },
+    "figures/figure_R1_data.csv": {
+      "rows": 8,
+      "max_absolute_numeric_difference": 0.0
+    },
+    "figures/figure_R2_data.csv": {
+      "rows": 12,
+      "max_absolute_numeric_difference": 0.0
+    },
+    "figures/figure_R3_data.csv": {
+      "rows": 270,
+      "max_absolute_numeric_difference": 0.0
+    }
+  },
+  "max_summary_numeric_difference": 0,
+  "original_scientific_script_unchanged": true,
+  "archived_results_not_overwritten": true,
+  "scope": "Computational replay; not independent human scientific validation. Figure byte hashes may change with metadata or platform."
+}

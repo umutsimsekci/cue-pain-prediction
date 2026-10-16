@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this repository for the secondary-analysis code and cite the original data paper separately. This is research software and results, not a peer-reviewed article."
+type: software
+title: "Social cue means and distribution shape in prediction of pain and visual ratings"
+authors:
+  - family-names: "Şimşekçi"
+    given-names: "Umut"
+    orcid: "https://orcid.org/0000-0002-5469-1551"
+version: "2026-10-16"
+date-released: "2026-10-16"
+repository-code: "https://github.com/umutsimsekci/cue-pain-prediction"
+url: "https://github.com/umutsimsekci/cue-pain-prediction"
+abstract: "Exploratory secondary analysis of open cued-perception observations, with participant-held-out prediction, a cue-mean-only ablation, all model comparisons and reproducible figures. No independent-cohort or clinical validation is claimed."
+keywords:
+  - pain
+  - visual perception
+  - contextual cues
+  - secondary analysis
+  - cross-validation
