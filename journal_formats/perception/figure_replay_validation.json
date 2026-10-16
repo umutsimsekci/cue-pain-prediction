@@ -1,0 +1,84 @@
+{
+  "verified_at_utc": "2026-10-16T07:58:51.908790+00:00",
+  "all_seven_pdf_render_pixels_match": true,
+  "preview_checks": [
+    {
+      "name": "Figure1_all_model_RMSE_pdf_render.png",
+      "pixel_identical": true,
+      "pixels": [
+        1147,
+        429
+      ]
+    },
+    {
+      "name": "Figure2_paired_RMSE_differences_pdf_render.png",
+      "pixel_identical": true,
+      "pixels": [
+        1146,
+        521
+      ]
+    },
+    {
+      "name": "Figure3_participant_gain_distribution_pdf_render.png",
+      "pixel_identical": true,
+      "pixels": [
+        1145,
+        544
+      ]
+    },
+    {
+      "name": "FigureS1_matched_contrasts_pdf_render.png",
+      "pixel_identical": true,
+      "pixels": [
+        1065,
+        500
+      ]
+    },
+    {
+      "name": "FigureS2_coverage_sensitivity_pdf_render.png",
+      "pixel_identical": true,
+      "pixels": [
+        1066,
+        453
+      ]
+    },
+    {
+      "name": "FigureS3_data_coverage_pdf_render.png",
+      "pixel_identical": true,
+      "pixels": [
+        1145,
+        648
+      ]
+    },
+    {
+      "name": "Graphical_abstract_pdf_render.png",
+      "pixel_identical": true,
+      "pixels": [
+        1536,
+        864
+      ]
+    }
+  ],
+  "plotted_data_checks": [
+    {
+      "path": "03_figures/Figure1_data.csv",
+      "sha256_match": true
+    },
+    {
+      "path": "03_figures/Figure2_data.csv",
+      "sha256_match": true
+    },
+    {
+      "path": "03_figures/Figure3_data.csv",
+      "sha256_match": true
+    },
+    {
+      "path": "03_figures/graphical_abstract/data.csv",
+      "sha256_match": true
+    }
+  ],
+  "source_hashes_verified": true,
+  "statistical_models_or_bootstraps_rerun": false,
+  "generator_unchanged": true,
+  "note": "Exact rendered-pixel equality was checked in the preparation environment. Font/library differences can change rendering on other systems; original vectors and plotted values are preserved."
+}

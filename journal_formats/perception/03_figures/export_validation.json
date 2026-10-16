@@ -1,0 +1,179 @@
+{
+  "purpose": "Final journal exports only; no new analysis",
+  "preserved_inputs_unchanged": true,
+  "numpy": "2.3.5",
+  "matplotlib": "3.10.7",
+  "figures": [
+    {
+      "stem": "Figure1_all_model_RMSE",
+      "directory": "03_figures",
+      "role": "main_figure",
+      "formats": [
+        "pdf",
+        "svg",
+        "eps",
+        "png",
+        "800dpi LZW TIFF"
+      ],
+      "pdf_pages": 1,
+      "pdf_text_characters": 274,
+      "tiff_pixels": [
+        7958,
+        2972
+      ],
+      "tiff_dpi": [
+        800.0,
+        800.0
+      ],
+      "tiff_compression": "LZW",
+      "tiff_bytes": 1248292,
+      "tiff_under_10MB": true,
+      "pdf_render": "03_figures/visual_qa/Figure1_all_model_RMSE_pdf_render.png",
+      "pdf_raster_image_objects": 0,
+      "visual_review": "Passed: inspected actual PDF rendering; no clipping or overlap in final export",
+      "eps_header_verified": true,
+      "svg_embedded_raster_images": false
+    },
+    {
+      "stem": "Figure2_paired_RMSE_differences",
+      "directory": "03_figures",
+      "role": "main_figure",
+      "formats": [
+        "pdf",
+        "svg",
+        "eps",
+        "png",
+        "800dpi LZW TIFF"
+      ],
+      "pdf_pages": 1,
+      "pdf_text_characters": 193,
+      "tiff_pixels": [
+        7952,
+        3611
+      ],
+      "tiff_dpi": [
+        800.0,
+        800.0
+      ],
+      "tiff_compression": "LZW",
+      "tiff_bytes": 1377850,
+      "tiff_under_10MB": true,
+      "pdf_render": "03_figures/visual_qa/Figure2_paired_RMSE_differences_pdf_render.png",
+      "pdf_raster_image_objects": 0,
+      "visual_review": "Passed: inspected actual PDF rendering; no clipping or overlap in final export",
+      "eps_header_verified": true,
+      "svg_embedded_raster_images": false
+    },
+    {
+      "stem": "Figure3_participant_gain_distribution",
+      "directory": "03_figures",
+      "role": "main_figure",
+      "formats": [
+        "pdf",
+        "svg",
+        "eps",
+        "png",
+        "800dpi LZW TIFF"
+      ],
+      "pdf_pages": 1,
+      "pdf_text_characters": 200,
+      "tiff_pixels": [
+        7946,
+        3772
+      ],
+      "tiff_dpi": [
+        800.0,
+        800.0
+      ],
+      "tiff_compression": "LZW",
+      "tiff_bytes": 1496272,
+      "tiff_under_10MB": true,
+      "pdf_render": "03_figures/visual_qa/Figure3_participant_gain_distribution_pdf_render.png",
+      "pdf_raster_image_objects": 0,
+      "visual_review": "Passed: inspected actual PDF rendering; no clipping or overlap in final export",
+      "eps_header_verified": true,
+      "svg_embedded_raster_images": false
+    },
+    {
+      "stem": "FigureS1_matched_contrasts",
+      "directory": "04_supplement\\figures",
+      "role": "supplementary_figure",
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "pdf_pages": 1,
+      "pdf_text_characters": 258,
+      "pdf_render": "03_figures/visual_qa/FigureS1_matched_contrasts_pdf_render.png",
+      "pdf_raster_image_objects": 0,
+      "visual_review": "Passed: inspected actual PDF rendering; no clipping or overlap in final export"
+    },
+    {
+      "stem": "FigureS2_coverage_sensitivity",
+      "directory": "04_supplement\\figures",
+      "role": "supplementary_figure",
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "pdf_pages": 1,
+      "pdf_text_characters": 272,
+      "pdf_render": "03_figures/visual_qa/FigureS2_coverage_sensitivity_pdf_render.png",
+      "pdf_raster_image_objects": 0,
+      "visual_review": "Passed: inspected actual PDF rendering; no clipping or overlap in final export"
+    },
+    {
+      "stem": "FigureS3_data_coverage",
+      "directory": "04_supplement\\figures",
+      "role": "supplementary_figure",
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "pdf_pages": 1,
+      "pdf_text_characters": 243,
+      "pdf_render": "03_figures/visual_qa/FigureS3_data_coverage_pdf_render.png",
+      "pdf_raster_image_objects": 0,
+      "visual_review": "Passed: inspected actual PDF rendering; no clipping or overlap in final export"
+    },
+    {
+      "stem": "Graphical_abstract",
+      "directory": "03_figures\\graphical_abstract",
+      "role": "graphical_abstract",
+      "formats": [
+        "pdf",
+        "svg",
+        "eps",
+        "png",
+        "800dpi LZW TIFF"
+      ],
+      "pdf_pages": 1,
+      "pdf_text_characters": 884,
+      "tiff_pixels": [
+        10666,
+        6000
+      ],
+      "tiff_dpi": [
+        800.0,
+        800.0
+      ],
+      "tiff_compression": "LZW",
+      "tiff_bytes": 4305718,
+      "tiff_under_10MB": true,
+      "canvas_inches": [
+        13.333333333333334,
+        7.5
+      ],
+      "pdf_render": "03_figures/visual_qa/Graphical_abstract_pdf_render.png",
+      "pdf_raster_image_objects": 0,
+      "visual_review": "Passed: inspected actual PDF rendering; no clipping or overlap in final export",
+      "eps_header_verified": true,
+      "svg_embedded_raster_images": false
+    }
+  ],
+  "visual_review_completed_at_utc": "2026-10-16T07:47:05.919050+00:00",
+  "graphical_abstract_layout_repair": "Text spacing and label position corrected; no numerical content changed"
+}

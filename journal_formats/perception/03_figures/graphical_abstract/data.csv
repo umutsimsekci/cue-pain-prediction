@@ -1,0 +1,7 @@
+modality,model,rmse
+pain,sensory_only,22.466920480980033
+pain,cue_mean_only,21.660251652753324
+pain,additive_cue,21.669488410104652
+vision,sensory_only,16.352445937026133
+vision,cue_mean_only,15.622625608508761
+vision,additive_cue,15.613534279671905

@@ -1,0 +1,73 @@
+{
+  "purpose": "Figure export only; no statistical model or bootstrap rerun",
+  "source_data_commit": "84dc29cdaefcf78de489e990419a8a398419cb6d",
+  "inputs": [
+    {
+      "source": "perception_submission_2026-10-16/02_analysis/results/model_metrics.csv",
+      "preserved_copy": "03_figures/data/model_metrics.csv",
+      "sha256": "95d1e6547cc05fad602dc554d9951f9a36b038728d1fca1ed61fe23dc21e79ac"
+    },
+    {
+      "source": "perception_submission_2026-10-16/02_analysis/results/pairwise_comparisons.csv",
+      "preserved_copy": "03_figures/data/pairwise_comparisons.csv",
+      "sha256": "da00c54e1874426f56ac33884159c34eba68f8e7edfdd4cc187f0f5929367530"
+    },
+    {
+      "source": "perception_submission_2026-10-16/02_analysis/results/participant_gains.csv",
+      "preserved_copy": "03_figures/data/participant_gains.csv",
+      "sha256": "53c84c5a425146846e569e83123a72653d51bd8d012f520dc1535c274b972d70"
+    },
+    {
+      "source": "perception_submission_2026-10-16/02_analysis/results/summary.json",
+      "preserved_copy": "03_figures/data/revision_summary.json",
+      "sha256": "fe5cf19dbb76443e3aef1eefc5f9dcbbc3972c1949b5ed70e766c219b4892811"
+    },
+    {
+      "source": "perception_submission_2026-10-16/02_analysis/figures/captions.md",
+      "preserved_copy": "03_figures/sources/revision_captions_original.md",
+      "sha256": "c289fd43bad8ca26b4e08029a293e39323b5e7db2ea494ba09444f9a2a19df88"
+    },
+    {
+      "source": "perception_submission_2026-10-16/02_analysis/run_mean_only_ablation.py",
+      "source_sha256": "bc53925e0fee625bf0f27fd83e6c3b5255ba8911a4782eec1da32d921a7758ee",
+      "derived_function": "make_figures",
+      "preserved_copy": "03_figures/sources/main_plot_definition.py",
+      "sha256": "0db5187e4a4359e8bd92305c3f025cedcd3ffc95ce8d9e2adf5c52ecdd16760d"
+    },
+    {
+      "source": "submission_package_2026-10-06/05_reproducibility/analysis_run/data/empirical/summary.json",
+      "preserved_copy": "04_supplement/figures/source_data/summary.json",
+      "sha256": "0d389b01d5b02391deddb48dc38ea85f769691c93b6ee7d8b3929aab53507591"
+    },
+    {
+      "source": "submission_package_2026-10-06/05_reproducibility/analysis_run/data/empirical/coverage_sensitivity.json",
+      "preserved_copy": "04_supplement/figures/source_data/coverage_sensitivity.json",
+      "sha256": "9345acd209c1305acb5ce65cca90476b5e8c9bdc4eb9a0b107174ea66c3a626d"
+    },
+    {
+      "source": "submission_package_2026-10-06/05_reproducibility/analysis_run/data/empirical/participant_aggregates.csv",
+      "preserved_copy": "04_supplement/figures/source_data/participant_aggregates.csv",
+      "sha256": "e4ad3adc7b808f6c55ae92b410a11e995bd5479bf1fa1743154143bf3dca4f28"
+    },
+    {
+      "source": "submission_package_2026-10-06/03_supplementary/table_S3_participant_coverage.csv",
+      "preserved_copy": "04_supplement/figures/source_data/table_S3_participant_coverage.csv",
+      "sha256": "d8e8007f12451004c9ca1720dc0191f566a2b42108c5daf691881d2eaacc1208"
+    },
+    {
+      "source": "submission_package_2026-10-06/05_reproducibility/make_figures.py",
+      "preserved_copy": "03_figures/sources/original_publication_figures.py",
+      "sha256": "eaf3c16af346d022d96bf88a715e2167933d49f1672956082bda9b480c82c30a"
+    },
+    {
+      "source": "sources/original_publication_figures.py",
+      "derived_sections": [
+        "Figure 2",
+        "Figure 4",
+        "Supplement"
+      ],
+      "preserved_copy": "03_figures/sources/supplement_plot_definitions.py",
+      "sha256": "0571aca95bb6012526acac368ee535e8965855f88976efb741bae9133727f808"
+    }
+  ]
+}

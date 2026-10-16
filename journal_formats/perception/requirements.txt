@@ -1,0 +1,5 @@
+numpy==2.3.5
+matplotlib==3.10.7
+Pillow==12.3.0
+pypdf==6.10.0
+pypdfium2==5.14.0
